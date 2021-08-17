@@ -1,23 +1,20 @@
-var log=document.getElementById('loginId');
+const signInButton = document.getElementById("signInButton");
 
-log.addEventListener("click",checkfunc);
+/**
+ * SingIn function
+ */
+function signIn() {
+    const emailInput = document.getElementById("emailInput");
+    const passInput = document.getElementById("passInput");
 
-function checkfunc(){
-     if (
-        userInput.value.toLowerCase() == "admin@ojvar.dev" &&
-        passInput.value == "@ojvar"
-) {
-    confirm("Welcome");
-} else {
-    alert("Invalid Email/password");
+    if (
+        emailInput.value.toLowerCase() == "john@doe.com" &&
+        passInput.value == "12345"
+    ) {
+        confirm("Welcome");
+    } else {
+        alert("Invalid Email/password");
+    }
 }
 
-}
-
-
-      var myTimer = setInterval(myFunction, 1000);
-
-      function myFunction() {
-        var d = new Date();
-        document.getElementById("timeId").innerHTML = d.toLocaleTimeString();
-      }
+signInButton.addEventListener("click", signIn);
