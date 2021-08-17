@@ -1,65 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="../styles/login.css" />
-  </head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta
+            name="author"
+            content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+        />
+        <meta name="generator" content="Hugo 0.84.0" />
+        <title>Signin Template · Bootstrap v5.0</title>
 
-  <body id="bodyId">
-    <form id="formId">
-      <fieldset id="fieldsetId">
-        <legend id="legendId">Login</legend>
-        <div class="form-group">
-          <label for="exampleInputEmail1" id="emailId">Email address</label>
-          <div>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="admin@ojvar.dev"
-            />
-          </div>
+        <!-- <link
+            rel="canonical"
+            href="https://getbootstrap.com/docs/5.0/examples/sign-in/"
+        /> -->
 
-          <small id="emailHelp" class="form-text text-muted"
-            >We'll never share your email with anyone else.</small
-          >
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1" id="passwordId">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-            placeholder="@ojvar"
-          />
-        </div>
-        <div class="form-check" id="rememberId">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-          <label class="form-check-label" for="exampleCheck1"
-            >Remember me</label
-          >
-        </div>
+        <!-- Bootstrap core CSS -->
+        <link href="../styles/bootstrap/bootstrap.min.css" rel="stylesheet" />
 
-        <div>
-          <p id="forgetId"><a href="">Forget password? </a></p>
-        </div>
+        <!-- Favicons -->
+        <!-- <link
+            rel="apple-touch-icon"
+            href="/docs/5.0/assets/img/favicons/apple-touch-icon.png"
+            sizes="180x180"
+        />
+        -->
+        <link
+            rel="icon"
+            href="../images/favicon-16x16.png"
+            sizes="32x32"
+            type="image/png"
+        />
+        <link rel="icon" href="../images/favicon-16x16.png" />
+        <meta name="theme-color" content="#7952b3" />
+        
+        <!-- Custom styles for this template -->
+        <link href="../styles/login.css" rel="stylesheet" />
+    </head>
+    <body class="text-center">
+        <main class="form-signin">
+            <form>
+                <img
+                    class="mb-4"
+                    src="../images/bootstrap-logo.svg"
+                    alt=""
+                    width="72"
+                    height="57"
+                />
+                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
-        <div><button id="loginId">Login</button></div>
-      </fieldset>
-    </form>
+                <div class="form-floating">
+                    <input
+                        type="email"
+                        class="form-control"
+                        id="floatingInput"
+                        placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <input
+                        type="password"
+                        class="form-control"
+                        id="floatingPassword"
+                        placeholder="Password"
+                    />
+                    <label for="floatingPassword">Password</label>
+                </div>
 
-    <p id="demo"></p>
-    <p id="timeId" onclick="clearInterval(myTimer)"></p>
-
-    <script
-      type="text/javascript"
-      src="../scripts/bootstrap/bootstrap.min.js"
-    ></script>
-    <script type="text/javascript" src="../scripts/login.js"></script>
-  </body>
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me" /> Remember
+                        me
+                    </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">
+                    Sign in
+                </button>
+                <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+            </form>
+        </main>
+    </body>
 </html>
