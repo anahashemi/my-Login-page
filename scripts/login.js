@@ -1,5 +1,3 @@
-const signInButton = document.getElementById("signInButton");
-
 /**
  * SingIn function
  */
@@ -20,4 +18,6 @@ function signIn(event) {
     }
 }
 
+/* Prepare sign-in button */
+const signInButton = document.getElementById("signInButton");
 signInButton.addEventListener("click", signIn);
