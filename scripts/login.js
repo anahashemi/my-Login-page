@@ -19,5 +19,5 @@ function checkfunc(){
 
       function myFunction() {
         var d = new Date();
-        document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+        document.getElementById("timeId").innerHTML = d.toLocaleTimeString();
       }
