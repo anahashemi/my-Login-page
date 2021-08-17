@@ -1,7 +1,6 @@
-const signInButton = document.getElementById("signInButton");
-
 /**
- * SingIn function
+ * SignIn function
+ * @param {Event}} event
  */
 function signIn(event) {
     event.preventDefault();
@@ -13,11 +12,12 @@ function signIn(event) {
         emailInput.value.toLowerCase() == "john@doe.com" &&
         passInput.value == "12345"
     ) {
-        document.location.href = "/views/main.html";
+        redirectToUrl("/views/main.html");
     } else {
         alert("Invalid Email/password");
         emailInput.focus();
     }
 }
 
+const signInButton = document.getElementById("signInButton");
 signInButton.addEventListener("click", signIn);
