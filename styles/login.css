@@ -1,68 +1,60 @@
-#bodyId{
-background-image: url(../images/2.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+#bodyId {
+  background-image: url(../images/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#legendId{
-    text-align: center;
-    font-weight: 700;
-
+#legendId {
+  text-align: center;
+  font-weight: 700;
 }
-#emailHelp{
-    font-size: 10px;
+#emailHelp {
+  font-size: 10px;
 }
-#emailId{
-    padding-left: 10px;
-}
-
-#passwordId{
-    padding-left: 10px;
-
-}
-#forgetId{
-    padding-left: 10px;
-}
-#rememberId{
-    padding-left: 33px;
+#emailId {
+  padding-left: 10px;
 }
 
-
-#exampleInputEmail1{
-
-    background-color: rgb(206, 250, 250);
-    width: 280px;
-    padding-left: 10px;
-    margin-left: 5px;
+#passwordId {
+  padding-left: 10px;
 }
-#exampleInputPassword1{
-    background-color:  rgb(206, 250, 250);
-    width: 280px;
-    padding-left: 10px;
-    margin-left: 6px;
-
+#forgetId {
+  padding-left: 10px;
 }
-#fieldsetId{
-    border:  4px solid black;
-    background-color: rgb(209, 199, 221);
-    width: 300px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: unset;
-    
-}
-#formId{
-    color: rgb(255, 255, 255);
+#rememberId {
+  padding-left: 33px;
 }
 
-#loginId{
-    font-weight: 700;
-    text-align: center;
-    margin-left: 120px;
-    
+#exampleInputEmail1 {
+  background-color: rgb(206, 250, 250);
+  width: 280px;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+#exampleInputPassword1 {
+  background-color: rgb(206, 250, 250);
+  width: 280px;
+  padding-left: 10px;
+  margin-left: 6px;
+}
+#fieldsetId {
+  border: 4px solid black;
+  background-color: rgb(209, 199, 221);
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: unset;
+}
+#formId {
+  color: rgb(255, 255, 255);
 }
 
-#timeId{
-    margin-left: auto;
-    margin-right: auto;
+#loginId {
+  font-weight: 700;
+  text-align: center;
+  margin-left: 120px;
+}
+
+#timeId {
+  text-align: center;
 }
