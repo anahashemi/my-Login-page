@@ -1,27 +1,23 @@
-import { Vue } from "@Scripts/vendors/vue";
-import { LoadingMixin } from "@Scripts/vue/mixins/loading-mixin";
+// import { Bootstrap } from "@Scripts/vendors/bootstrap";
 
 /**
- * HomePage class
+ * Main Page class
  */
-export class HomePage {
-    /**
-     * Ctr
-     */
+export class MainPage {
     constructor() {
-        this.initVue();
+        this.init();
     }
 
     /**
-     * Init Vue
+     * Init
      */
-    private initVue() {
-        new Vue({
-            el: "#app",
-
-            mixins: [LoadingMixin()],
-        });
+    private init() {
+        alert("OK");
+        /*  */
     }
 }
 
-new HomePage();
+/**
+ * default export
+ */
+export default new MainPage();
