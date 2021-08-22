@@ -1,0 +1,11 @@
+{
+    "extends": "../tsconfig.json",
+    "exclude": ["node_modules", "webpack*", "webpack/", "dist"],
+    // "include": ["./resources/**/*.ts"],
+
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Node"
+    }
+}
