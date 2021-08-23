@@ -1,17 +1,32 @@
-.nav-link {
-    color: black;
-    margin-left: 10px;
-
-    display: inline;
-    font-size: 36px;
+#titleId {
+    font-family: GT Walsheim, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    display: block;
+    height: auto;
+    width: 100%;
+    letter-spacing: 4px;
 }
-#homeLink {
+
+.btn {
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#homeBtn {
     margin-left: 150px;
 }
-
-#loginLink {
-    margin-left: 1150px;
+#loginBtn {
+    margin-left: 1100px;
 }
+
 .container-fluid {
     margin: 0%;
     position: relative;
@@ -26,20 +41,20 @@
 }
 .container-fluid .btn {
     position: absolute;
-    top: 90%;
-    left: 15%;
-    /* transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); */
+    margin-top: 310px;
+    left: 45%;
     background-color: white;
-    color: rgb(0, 0, 0);
-    font-size: 24px;
     font-family: GT Walsheim, sans-serif;
     font-weight: 500;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
     border-radius: 50px;
     text-align: center;
+    padding: 5px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    color: #07575b;
 }
 .container-fluid .btn:hover {
     background-color: #66a5ad;
