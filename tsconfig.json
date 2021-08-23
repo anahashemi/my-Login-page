@@ -1,0 +1,46 @@
+{
+    "exclude": ["node_modules", "webpack*", "webpack/", "dist"],
+
+    "compilerOptions": {
+        "jsx": "react",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "target": "ESNext",
+
+        "allowJs": true,
+        "checkJs": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "removeComments": false,
+        "skipLibCheck": true,
+        "strict": true,
+
+        "plugins": [
+            { "transform": "typescript-transform-paths" },
+            {
+                "transform": "typescript-transform-paths",
+                "afterDeclarations": true
+            }
+        ],
+
+        "outDir": "./dist/",
+        "rootDir": "./",
+        "baseUrl": "./",
+        "paths": {
+            "@CORE/*": ["core/*"],
+            "@APP/*": ["app/*"],
+            "@MODELS/*": ["models/*"],
+            "@CONTROLLERS/*": ["app/controllers/*"],
+            "@TYPES/*": ["lib/types/*"],
+            "@CONFIGS/*": ["configs/*"],
+            "@Lib/*": ["lib/*"],
+            "@VueC/*": ["resources/scripts/vue/components/*"],
+            "@ReactC/*": ["resources/scripts/react/components/*"],
+            "@Scripts/*": ["resources/scripts/*"],
+            "@Styles/*": ["resources/styles/*"],
+            "@Fonts/*": ["resources/fonts/*"],
+            "@Images/*": ["resources/images/*"],
+            "@/*": ["./*"]
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.nav-link {
+    color: black !important;
+    margin-left: 10px;
+
+    display: inline;
+    font-size: 36px;
+}
+#homeLink {
+    margin-left: 150px;
+}
+
+#loginLink {
+    margin-left: 1150px;
+}
+.container-fluid {
+    margin: 0%;
+    position: relative;
+
+    object-fit: cover;
+    padding: 0%;
+}
+.container-fluid img {
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+}
+.container-fluid .btn {
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: GT Walsheim, sans-serif;
+    font-weight: 500;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+}
+.container-fluid .btn:hover {
+    background-color: #66a5ad;
+}
