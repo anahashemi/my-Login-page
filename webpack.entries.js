@@ -21,6 +21,13 @@ module.exports = {
     ],
 
     cacheGroups: {
+        bootstrap: {
+            test: /[\\/]node_modules[\\/]bootstrap/i,
+            name: "chunks/bootstrap",
+            chunks: "all",
+            priority: 100,
+        },
+
         vue: {
             test: /[\\/]node_modules[\\/]vue/i,
             name: "chunks/vue",
